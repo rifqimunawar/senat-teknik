@@ -37,7 +37,8 @@
 
                     @foreach ($galery->take(12) as $item)
                         <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
-                            <img src="{{ asset('img/' . $item->img) }}" class="img-fluid" alt="">
+                            <img src="{{ asset('img/' . $item->img) }}" class="img-fluid" alt=""
+                            style="width:350px; height:200px; object-fit:cover">
                             <div class="portfolio-info">
                                 <h4>{{ $item->title }}</h4>
                                 <a href="{{ asset('img/' . $item->img) }}" title="{{ $item->title }}"

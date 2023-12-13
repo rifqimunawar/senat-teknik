@@ -21,7 +21,7 @@
                 <i class="bi bi-list mobile-nav-toggle d-none"></i>
             </nav><!-- .navbar -->
 
-            <a class="btn-getstarted scrollto" href="/admin/dashboard">Get Started</a>
+            <a class="btn-getstarted scrollto" href="/admin/dashboard">Login</a>
 
         </div>
     </header><!-- End Header -->

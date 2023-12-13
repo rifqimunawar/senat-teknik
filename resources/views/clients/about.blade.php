@@ -31,8 +31,14 @@
                     </h3>
 
                     <div class="d-flex align-items-center mt-4">
-                      </div>
-                    <p>Senat Mahasiswa Fakultas Teknik memiliki peran sentral sebagai perwakilan mahasiswa khususnya dari Fakultas Teknik di Universitas Islam Nusantara. Kita berkomitmen kuat untuk melindungi dan memperjuangkan hak-hak mahasiswa, sekaligus menjaga identitas fakultas teknik dengan semangat nilai-nilai Islam Ahlu Sunnah wal Jama'ah. Dengan menjadi suara aktif mahasiswa, Senat bertujuan memastikan bahwa setiap kebijakan atau kegiatan yang diambil oleh senat mahasiswa fakultas teknik mencerminkan aspirasi dan kebutuhan sejati dari seluruh anggota mahasiswa Fakultas Teknik serta selaras dengan nilai-nilai keislaman.</p>
+                    </div>
+                    <p>Senat Mahasiswa Fakultas Teknik memiliki peran sentral sebagai perwakilan mahasiswa khususnya dari
+                        Fakultas Teknik di Universitas Islam Nusantara. Kita berkomitmen kuat untuk melindungi dan
+                        memperjuangkan hak-hak mahasiswa, sekaligus menjaga identitas fakultas teknik dengan semangat
+                        nilai-nilai Islam Ahlu Sunnah wal Jama'ah. Dengan menjadi suara aktif mahasiswa, Senat bertujuan
+                        memastikan bahwa setiap kebijakan atau kegiatan yang diambil oleh senat mahasiswa fakultas teknik
+                        mencerminkan aspirasi dan kebutuhan sejati dari seluruh anggota mahasiswa Fakultas Teknik serta
+                        selaras dengan nilai-nilai keislaman.</p>
 
 
                 </div><!-- End Tab 1 Content -->
@@ -57,32 +63,27 @@
                 <p>Periode 2023-2024</p>
             </header>
 
-            <div class="row gy-4">
+            <div class="row gy-5">
 
                 @foreach ($pengurusData as $item)
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                        <div class="member">
+                    <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="team-member">
                             <div class="member-img">
-                                <img src="{{ asset('img/' . $item->img) }}" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href="https://www.instagram.com/{{ $item->username_ig }}"><i
-                                            class="bi bi-twitter"></i></a>
-                                    <a href="https://www.instagram.com/{{ $item->username_ig }}"><i
-                                            class="bi bi-facebook"></i></a>
-                                    <a href="https://www.instagram.com/{{ $item->username_ig }}"><i
-                                            class="bi bi-instagram"></i></a>
-                                    <a href="https://www.instagram.com/{{ $item->username_ig }}"><i
-                                            class="bi bi-linkedin"></i></a>
-                                </div>
+                                <img src="{{ asset('img/'. $item->img) }}" class="img-fluid" alt="">
                             </div>
                             <div class="member-info">
+                                <div class="social">
+                                    <a href="https://www.instagram.com/{{ $item->username_ig }}"><i class="bi bi-twitter"></i></a>
+                                    <a href="https://www.instagram.com/{{ $item->username_ig }}"><i class="bi bi-facebook"></i></a>
+                                    <a href="https://www.instagram.com/{{ $item->username_ig }}"><i class="bi bi-instagram"></i></a>
+                                    <a href="https://www.instagram.com/{{ $item->username_ig }}"><i class="bi bi-linkedin"></i></a>
+                                </div>
                                 <h4>{{ $item->name }}</h4>
                                 <span>{{ $item->jabatan }}</span>
                             </div>
                         </div>
-                    </div>
+                    </div><!-- End Team Member -->
                 @endforeach
-
             </div>
 
         </div>
