@@ -4,14 +4,14 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Login - Dema </title>
+    <title>Login - Senat </title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
     <!-- Favicons -->
-    <link href="{{ asset('img/dema.png') }}" rel="icon">
-    <link href="{{ asset('img/dema.png') }}" rel="apple-touch-icon">
+    <link href="{{ asset('img/logo senat.jpg') }}" rel="icon">
+    <link href="{{ asset('img/logo senat.jpg') }}" rel="apple-touch-icon">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -26,7 +26,9 @@
 
                 <div class="px-5 ms-xl-4">
                     <i class="fas fa-crow fa-2x me-3 pt-5 mt-xl-4" style="color: #709085;"></i>
-                    <span class="h1 fw-bold mb-0">Logo</span>
+                    <div>
+                      <img src="{{ asset('img/logo-senat.png') }}" alt="" style="width: 160px">
+                    </div>
                 </div>
 
                 <div class="d-flex align-items-center h-100%-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">

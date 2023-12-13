@@ -1,40 +1,49 @@
-@section('title'){{ 'Home' }}@endsection
-@section('favicon'){{ asset('img/dema.png') }}@endsection
+@section('title')
+    {{ 'Home' }}
+@endsection
+@section('favicon')
+    {{ asset('img/dema.png') }}
+@endsection
 @extends('masterClient')
 @section('content')
     <!-- ======= About Section ======= -->
-    <section id="about" class="about mt-4">
 
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about m-5">
         <div class="container" data-aos="fade-up">
-            <div class="row gx-0">
 
-                <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-                    <div class="content">
-                        <h3>Who We Are</h3>
-                        <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti
-                            reprehenderit.</h2>
-                        <p>
-                            Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor
-                            consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est
-                            corrupti.
-                        </p>
-                        <div class="text-center text-lg-start">
-                            <a href="#"
-                                class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                                <span>Read More</span>
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
-                        </div>
+            <div class="section-header">
+                <h2>About Us</h2>
+                <p>Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas
+                    asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p>
+            </div>
+
+            <div class="row g-4 g-lg-6" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="col-lg-5">
+                    <div class="about-img">
+                        <img src="{{ asset('clients/assets/img/about.jpg') }}" class="img-fluid" alt="">
                     </div>
                 </div>
 
-                <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="{{ asset('img/dema pelantikan.jpg') }}" class="img-fluid" alt="">
-                </div>
+                <div class="col-lg-7">
+                    <h3 class="pt-0 pt-lg-5">Peran Penting Senat Mahasiswa Fakultas Teknik
+                    </h3>
+
+                    <div class="d-flex align-items-center mt-4">
+                      </div>
+                    <p>Senat Mahasiswa Fakultas Teknik memiliki peran sentral sebagai perwakilan mahasiswa khususnya dari Fakultas Teknik di Universitas Islam Nusantara. Kita berkomitmen kuat untuk melindungi dan memperjuangkan hak-hak mahasiswa, sekaligus menjaga identitas fakultas teknik dengan semangat nilai-nilai Islam Ahlu Sunnah wal Jama'ah. Dengan menjadi suara aktif mahasiswa, Senat bertujuan memastikan bahwa setiap kebijakan atau kegiatan yang diambil oleh senat mahasiswa fakultas teknik mencerminkan aspirasi dan kebutuhan sejati dari seluruh anggota mahasiswa Fakultas Teknik serta selaras dengan nilai-nilai keislaman.</p>
+
+
+                </div><!-- End Tab 1 Content -->
 
             </div>
+
         </div>
 
+        </div>
+
+        </div>
     </section><!-- End About Section -->
 
 
@@ -44,31 +53,34 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Team</h2>
-                <p>Pengurus</p>
+                <h2>Pengurus</h2>
+                <p>Periode 2023-2024</p>
             </header>
 
             <div class="row gy-4">
 
-              @foreach ($pengurusData as $item)
-                  
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="{{ asset('img/'. $item->img) }}" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href="https://www.instagram.com/{{ $item->username_ig }}"><i class="bi bi-twitter"></i></a>
-                                <a href="https://www.instagram.com/{{ $item->username_ig }}"><i class="bi bi-facebook"></i></a>
-                                <a href="https://www.instagram.com/{{ $item->username_ig }}"><i class="bi bi-instagram"></i></a>
-                                <a href="https://www.instagram.com/{{ $item->username_ig }}"><i class="bi bi-linkedin"></i></a>
+                @foreach ($pengurusData as $item)
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="{{ asset('img/' . $item->img) }}" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href="https://www.instagram.com/{{ $item->username_ig }}"><i
+                                            class="bi bi-twitter"></i></a>
+                                    <a href="https://www.instagram.com/{{ $item->username_ig }}"><i
+                                            class="bi bi-facebook"></i></a>
+                                    <a href="https://www.instagram.com/{{ $item->username_ig }}"><i
+                                            class="bi bi-instagram"></i></a>
+                                    <a href="https://www.instagram.com/{{ $item->username_ig }}"><i
+                                            class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>{{ $item->name }}</h4>
+                                <span>{{ $item->jabatan }}</span>
                             </div>
                         </div>
-                        <div class="member-info">
-                            <h4>{{ $item->name }}</h4>
-                            <span>{{ $item->jabatan }}</span>
-                        </div>
                     </div>
-                </div>
                 @endforeach
 
             </div>

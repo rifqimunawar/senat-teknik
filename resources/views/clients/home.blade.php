@@ -363,10 +363,9 @@
                     <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
                         <div class="content px-xl-5">
-                            <h3>Frequently Asked <strong>Questions</strong></h3>
+                            <h3>Frequently Asked and <strong>Questions</strong></h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                                Pertanyaan yang sering ditanyakan
                             </p>
                         </div>
 
@@ -377,14 +376,12 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq-content-1">
                                         <i class="bi bi-question-circle question-icon"></i>
-                                        Non consectetur a erat nam at lectus urna duis?
+                                        Apa peran utama dari Senat Mahasiswa Fakultas Teknik?
                                     </button>
                                 </h3>
                                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                     <div class="accordion-body">
-                                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
-                                        non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
-                                        purus non.
+                                      Senat Mahasiswa Fakultas Teknik memiliki peran utama sebagai lembaga perwakilan mahasiswa yang bertugas memperjuangkan dan mengadvokasi kepentingan serta hak-hak mahasiswa di tingkat fakultas.
                                     </div>
                                 </div>
                             </div><!-- # Faq item-->
@@ -394,15 +391,12 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq-content-2">
                                         <i class="bi bi-question-circle question-icon"></i>
-                                        Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                                        Apa itu Senat Mahasiswa Fakultas Teknik?
                                     </button>
                                 </h3>
                                 <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                     <div class="accordion-body">
-                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                        velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
-                                        donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                        cursus turpis massa tincidunt dui.
+                                      Senat Mahasiswa Fakultas Teknik adalah wadah perwakilan mahasiswa untuk menyuarakan dan memperjuangkan kepentingan mereka di tingkat fakultas.
                                     </div>
                                 </div>
                             </div><!-- # Faq item-->
@@ -412,15 +406,12 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq-content-3">
                                         <i class="bi bi-question-circle question-icon"></i>
-                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                                        Apa perbedaan antara Senat dan Himpunan Mahasiswa Jurusan di Fakultas Teknik?
                                     </button>
                                 </h3>
                                 <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                     <div class="accordion-body">
-                                        Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
-                                        pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit.
-                                        Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis
-                                        tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                                      Himpunan Mahasiswa Fakultas Teknik lebih fokus pada fungsi perwakilan dan advokasi mahasiswa, sementara Senat Mahasiswa memiliki tanggung jawab lebih luas termasuk kegiatan Himpunan, pengembangan, dan pelayanan kepada mahasiswa.
                                     </div>
                                 </div>
                             </div><!-- # Faq item-->
@@ -430,16 +421,13 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq-content-4">
                                         <i class="bi bi-question-circle question-icon"></i>
-                                        Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                                        Bagaimana Senat Mahasiswa Fakultas Teknik berinteraksi dengan pihak fakultas dan universitas?
                                     </button>
                                 </h3>
                                 <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                     <div class="accordion-body">
                                         <i class="bi bi-question-circle question-icon"></i>
-                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                        velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
-                                        donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                        cursus turpis massa tincidunt dui.
+                                        Senat Mahasiswa Fakultas Teknik berinteraksi dengan pihak fakultas dan universitas melalui dialog, rapat kerja, dan forum lainnya. Mereka menyampaikan aspirasi mahasiswa dan berpartisipasi dalam pengambilan keputusan terkait kebijakan akademik dan non-akademik.
                                     </div>
                                 </div>
                             </div><!-- # Faq item-->
@@ -449,14 +437,12 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq-content-5">
                                         <i class="bi bi-question-circle question-icon"></i>
-                                        Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                                        Apa saja kegiatan yang diadakan oleh Senat Mahasiswa Fakultas Teknik?
                                     </button>
                                 </h3>
                                 <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                     <div class="accordion-body">
-                                        Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in
-                                        est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
-                                        suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                                      Senat sering mengadakan kegiatan seperti seminar, dan diskusi, untuk meningkatkan pengalaman dan kesejahteraan mahasiswa di fakultas.
                                     </div>
                                 </div>
                             </div><!-- # Faq item-->

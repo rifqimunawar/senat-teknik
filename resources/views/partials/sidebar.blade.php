@@ -6,9 +6,9 @@
                 href="{{ route('dashboard.admin') }}">
                 <div class="sidebar-brand-icon">
                     {{-- <i class="fas fa-laugh-wink"></i> --}}
-                    <img src="{{ asset('img/dema.png') }}" alt="" style="width:50%">
+                    <img src="{{ asset('img/logo senat.jpg') }}" class="rounded" alt="" style="width:50%">
                 </div>
-                <div class="sidebar-brand-text mx-1">Dema Uninus</div>
+                <div class="sidebar-brand-text mx-1">Senat Teknik</div>
             </a>
 
             <!-- Divider -->
