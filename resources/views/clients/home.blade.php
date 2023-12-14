@@ -69,168 +69,208 @@
         </section><!-- End Values Section -->
 
 
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-      <div class="container" data-aos="fade-up">
+        <!-- ======= Features Section ======= -->
+        <section id="features" class="features">
+            <div class="container" data-aos="fade-up">
 
-        <ul class="nav nav-tabs row gy-4 d-flex justify-content-center align-item-center">
+                <div class="section-header">
+                    <h2>VISI DAN MISI</h2>
+                    <p></p>
+                </div>
 
-          <li class="nav-item col-6 col-md-4 col-lg-2">
-              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
-                  <i class="bi bi-brightness-high color-teal"></i>
-                  <h4>Visi</h4>
-              </a>
-          </li><!-- End Tab 1 Nav -->
-      
-          <li class="nav-item col-6 col-md-4 col-lg-2">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-                  <i class="bi bi-command color-red"></i>
-                  <h4>Misi</h4>
-              </a>
-          </li><!-- End Tab 2 Nav --> 
-      
-      </ul>
-      
+                <ul class="nav nav-tabs row gy-4 d-flex justify-content-center align-item-center">
 
-        <div class="tab-content">
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+                            <i class="bi bi-brightness-high color-teal"></i>
+                            <h4>Visi</h4>
+                        </a>
+                    </li><!-- End Tab 1 Nav -->
 
-          <div class="tab-pane active show" id="tab-1">
-            <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-                <h3>Visi</h3>
-                <p class="fst-italic">
-                  Menempatkan mahasiswa fakultas teknik uninus menjadi kontrol sosial di lingkungan kampus dan kehidupan masyarakat yang mengedepankan ilmu pengetahuan, teknologi, agama, dan negara.
-                </p>
-              
-              </div>
-              <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                <img src="{{ asset('clients/assets/img/features-1.svg') }}" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content 1 -->
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                            <i class="bi bi-command color-red"></i>
+                            <h4>Misi</h4>
+                        </a>
+                    </li><!-- End Tab 2 Nav -->
 
-          <div class="tab-pane" id="tab-2">
-            <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1">
-                <h3>Misi</h3>
-                <p>
-                  Mengembangkan potensial kreatif dan inovatif serta memperjuangkan kesejahteraan Mahasiswa Fakultas Teknik yang tidak menyimpang dari azas, sifat dan kaidah-kaidah organisasi.
-
-                </p>
-                <p class="fst-italic">
-                  Membina dan menigkatkan hubungan baik antara Mahasiswa dan Organisasi dibawah naungan Fakultas Teknik dengan civitas akademik UNINUS serta pihak" lain dalam rangka pencapaian visi organisasi yang tidak menyimpang dari azas, sifat dan kaidah-kaidah organisasi.
-                </p>
-              </div>
-              <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="{{ asset('clients/assets/img/features-2.svg') }}" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content 2 -->
-
-          <div class="tab-pane" id="tab-3">
-            <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1">
-                <h3>Pariatur</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
                 </ul>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-              </div>
-              <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-3.svg" alt="" class="img-fluid">
-              </div>
+
+
+                <div class="tab-content">
+
+                    <div class="tab-pane active show" id="tab-1">
+                        <div class="row gy-4">
+                            <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+                                <h3>Visi</h3>
+                                <p class="fst-italic">
+                                    Menempatkan mahasiswa fakultas teknik uninus menjadi kontrol sosial di lingkungan kampus
+                                    dan kehidupan masyarakat yang mengedepankan ilmu pengetahuan, teknologi, agama, dan
+                                    negara.
+                                </p>
+
+                            </div>
+                            <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                                <img src="{{ asset('clients/assets/img/features-1.svg') }}" alt=""
+                                    class="img-fluid">
+                            </div>
+                        </div>
+                    </div><!-- End Tab Content 1 -->
+
+                    <div class="tab-pane" id="tab-2">
+                        <div class="row gy-4">
+                            <div class="col-lg-8 order-2 order-lg-1">
+                                <h3>Misi</h3>
+                                <p>
+                                    Mengembangkan potensial kreatif dan inovatif serta memperjuangkan kesejahteraan
+                                    Mahasiswa Fakultas Teknik yang tidak menyimpang dari azas, sifat dan kaidah-kaidah
+                                    organisasi.
+
+                                </p>
+                                <p class="fst-italic">
+                                    Membina dan menigkatkan hubungan baik antara Mahasiswa dan Organisasi dibawah naungan
+                                    Fakultas Teknik dengan civitas akademik UNINUS serta pihak" lain dalam rangka pencapaian
+                                    visi organisasi yang tidak menyimpang dari azas, sifat dan kaidah-kaidah organisasi.
+                                </p>
+                            </div>
+                            <div class="col-lg-4 order-1 order-lg-2 text-center">
+                                <img src="{{ asset('clients/assets/img/features-2.svg') }}" alt=""
+                                    class="img-fluid">
+                            </div>
+                        </div>
+                    </div><!-- End Tab Content 2 -->
+
+                    <div class="tab-pane" id="tab-3">
+                        <div class="row gy-4">
+                            <div class="col-lg-8 order-2 order-lg-1">
+                                <h3>Pariatur</h3>
+                                <p>
+                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate
+                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum
+                                </p>
+                                <ul>
+                                    <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat.</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in
+                                        voluptate velit.</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Provident mollitia neque rerum asperiores
+                                        dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
+                                </ul>
+                                <p class="fst-italic">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore
+                                    magna aliqua.
+                                </p>
+                            </div>
+                            <div class="col-lg-4 order-1 order-lg-2 text-center">
+                                <img src="assets/img/features-3.svg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div><!-- End Tab Content 3 -->
+
+                    <div class="tab-pane" id="tab-4">
+                        <div class="row gy-4">
+                            <div class="col-lg-8 order-2 order-lg-1">
+                                <h3>Nostrum</h3>
+                                <p>
+                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate
+                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum
+                                </p>
+                                <p class="fst-italic">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore
+                                    magna aliqua.
+                                </p>
+                                <ul>
+                                    <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat.</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in
+                                        voluptate velit.</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
+                                        storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 order-1 order-lg-2 text-center">
+                                <img src="assets/img/features-4.svg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div><!-- End Tab Content 4 -->
+
+                    <div class="tab-pane" id="tab-5">
+                        <div class="row gy-4">
+                            <div class="col-lg-8 order-2 order-lg-1">
+                                <h3>Adipiscing</h3>
+                                <p>
+                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate
+                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum
+                                </p>
+                                <p class="fst-italic">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore
+                                    magna aliqua.
+                                </p>
+                                <ul>
+                                    <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat.</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in
+                                        voluptate velit.</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
+                                        storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 order-1 order-lg-2 text-center">
+                                <img src="assets/img/features-5.svg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div><!-- End Tab Content 5 -->
+
+                    <div class="tab-pane" id="tab-6">
+                        <div class="row gy-4">
+                            <div class="col-lg-8 order-2 order-lg-1">
+                                <h3>Reprehit</h3>
+                                <p>
+                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate
+                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum
+                                </p>
+                                <p class="fst-italic">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore
+                                    magna aliqua.
+                                </p>
+                                <ul>
+                                    <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat.</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in
+                                        voluptate velit.</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
+                                        storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 order-1 order-lg-2 text-center">
+                                <img src="assets/img/features-6.svg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div><!-- End Tab Content 6 -->
+
+                </div>
+
             </div>
-          </div><!-- End Tab Content 3 -->
-
-          <div class="tab-pane" id="tab-4">
-            <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1">
-                <h3>Nostrum</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                </ul>
-              </div>
-              <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-4.svg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content 4 -->
-
-          <div class="tab-pane" id="tab-5">
-            <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1">
-                <h3>Adipiscing</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                </ul>
-              </div>
-              <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-5.svg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content 5 -->
-
-          <div class="tab-pane" id="tab-6">
-            <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1">
-                <h3>Reprehit</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                </ul>
-              </div>
-              <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-6.svg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content 6 -->
-
-        </div>
-
-      </div>
-    </section><!-- End Features Section -->
+        </section><!-- End Features Section -->
 
         <!-- ======= Clients Section ======= -->
         <section id="clients" class="clients">
@@ -244,18 +284,18 @@
 
                 <div class="clients-slider swiper">
                     <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><img src="{{ asset('img/himatif.png') }}"
-                                class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/hme.png') }}"
-                                class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/hmti.png') }}"
-                                class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/himatif.png') }}"
-                                class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/hme.png') }}"
-                                class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/hmti.png') }}"
-                                class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/himatif.png') }}" class="img-fluid"
+                                alt=""></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/hme.png') }}" class="img-fluid"
+                                alt=""></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/hmti.png') }}" class="img-fluid"
+                                alt=""></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/himatif.png') }}" class="img-fluid"
+                                alt=""></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/hme.png') }}" class="img-fluid"
+                                alt=""></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/hmti.png') }}" class="img-fluid"
+                                alt=""></div>
 
                     </div>
                     <div class="swiper-pagination"></div>
@@ -296,14 +336,15 @@
 
                         @foreach ($galery->take(12) as $item)
                             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
-                                <img src="{{ asset('img/' . $item->img) }}" class="img-fluid" alt="">
+                                <img src="{{ asset('img/' . $item->img) }}" class="img-fluid" alt=""
+                                    style="width:350px; height:200px; object-fit:cover">
                                 <div class="portfolio-info">
                                     <h4>{{ $item->title }}</h4>
                                     <a href="{{ asset('img/' . $item->img) }}" title="{{ $item->title }}"
                                         data-gallery="portfolio-gallery" class="glightbox preview-link"><i
                                             class="bi bi-zoom-in"></i></a>
-                                    <a href="{{ asset('img/' . $item->img) }}" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
+                                    <a href="{{ asset('img/' . $item->img) }}" title="More Details"
+                                        class="details-link"><i class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div>
                         @endforeach
@@ -360,7 +401,8 @@
 
                 <div class="row gy-4">
 
-                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+                    <div
+                        class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
                         <div class="content px-xl-5">
                             <h3>Frequently Asked and <strong>Questions</strong></h3>
@@ -381,7 +423,9 @@
                                 </h3>
                                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                     <div class="accordion-body">
-                                      Senat Mahasiswa Fakultas Teknik memiliki peran utama sebagai lembaga perwakilan mahasiswa yang bertugas memperjuangkan dan mengadvokasi kepentingan serta hak-hak mahasiswa di tingkat fakultas.
+                                        Senat Mahasiswa Fakultas Teknik memiliki peran utama sebagai lembaga perwakilan
+                                        mahasiswa yang bertugas memperjuangkan dan mengadvokasi kepentingan serta hak-hak
+                                        mahasiswa di tingkat fakultas.
                                     </div>
                                 </div>
                             </div><!-- # Faq item-->
@@ -396,7 +440,8 @@
                                 </h3>
                                 <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                     <div class="accordion-body">
-                                      Senat Mahasiswa Fakultas Teknik adalah wadah perwakilan mahasiswa untuk menyuarakan dan memperjuangkan kepentingan mereka di tingkat fakultas.
+                                        Senat Mahasiswa Fakultas Teknik adalah wadah perwakilan mahasiswa untuk menyuarakan
+                                        dan memperjuangkan kepentingan mereka di tingkat fakultas.
                                     </div>
                                 </div>
                             </div><!-- # Faq item-->
@@ -411,7 +456,9 @@
                                 </h3>
                                 <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                     <div class="accordion-body">
-                                      Himpunan Mahasiswa Fakultas Teknik lebih fokus pada fungsi perwakilan dan advokasi mahasiswa, sementara Senat Mahasiswa memiliki tanggung jawab lebih luas termasuk kegiatan Himpunan, pengembangan, dan pelayanan kepada mahasiswa.
+                                        Himpunan Mahasiswa Fakultas Teknik lebih fokus pada fungsi perwakilan dan advokasi
+                                        mahasiswa, sementara Senat Mahasiswa memiliki tanggung jawab lebih luas termasuk
+                                        kegiatan Himpunan, pengembangan, dan pelayanan kepada mahasiswa.
                                     </div>
                                 </div>
                             </div><!-- # Faq item-->
@@ -421,13 +468,17 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq-content-4">
                                         <i class="bi bi-question-circle question-icon"></i>
-                                        Bagaimana Senat Mahasiswa Fakultas Teknik berinteraksi dengan pihak fakultas dan universitas?
+                                        Bagaimana Senat Mahasiswa Fakultas Teknik berinteraksi dengan pihak fakultas dan
+                                        universitas?
                                     </button>
                                 </h3>
                                 <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                     <div class="accordion-body">
                                         <i class="bi bi-question-circle question-icon"></i>
-                                        Senat Mahasiswa Fakultas Teknik berinteraksi dengan pihak fakultas dan universitas melalui dialog, rapat kerja, dan forum lainnya. Mereka menyampaikan aspirasi mahasiswa dan berpartisipasi dalam pengambilan keputusan terkait kebijakan akademik dan non-akademik.
+                                        Senat Mahasiswa Fakultas Teknik berinteraksi dengan pihak fakultas dan universitas
+                                        melalui dialog, rapat kerja, dan forum lainnya. Mereka menyampaikan aspirasi
+                                        mahasiswa dan berpartisipasi dalam pengambilan keputusan terkait kebijakan akademik
+                                        dan non-akademik.
                                     </div>
                                 </div>
                             </div><!-- # Faq item-->
@@ -442,7 +493,8 @@
                                 </h3>
                                 <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                     <div class="accordion-body">
-                                      Senat sering mengadakan kegiatan seperti seminar, dan diskusi, untuk meningkatkan pengalaman dan kesejahteraan mahasiswa di fakultas.
+                                        Senat sering mengadakan kegiatan seperti seminar, dan diskusi, untuk meningkatkan
+                                        pengalaman dan kesejahteraan mahasiswa di fakultas.
                                     </div>
                                 </div>
                             </div><!-- # Faq item-->
@@ -467,10 +519,10 @@
 
                         <div class="swiper-slide">
                             <div class="testimonial-item">
-                                <img src="{{ asset('clients/assets/img/testimonials/testimonials-1.jpg') }}"
-                                    class="testimonial-img" alt="">
-                                <h3>Saul Goodman</h3>
-                                <h4>Ceo &amp; Founder</h4>
+                                <img src="{{ asset('img/cahyadi.jpg') }}" class="testimonial-img" alt=""
+                                    style="width:120px; height:120px; object-fit:cover">
+                                <h3>Muhmmad Cahyadi</h3>
+                                <h4>Presma Uninus</h4>
                                 <div class="stars">
                                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                         class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -478,9 +530,8 @@
                                 </div>
                                 <p>
                                     <i class="bi bi-quote quote-icon-left"></i>
-                                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
-                                    rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                                    risus at semper.
+                                    Maju mundurnya uninus tergantung kemajuan teknologinya, dan kemajuan teknologi
+                                    tergantung mahasiswa tekniknya
                                     <i class="bi bi-quote quote-icon-right"></i>
                                 </p>
                             </div>
@@ -488,10 +539,10 @@
 
                         <div class="swiper-slide">
                             <div class="testimonial-item">
-                                <img src="{{ asset('clients/assets/img/testimonials/testimonials-2.jpg') }}"
-                                    class="testimonial-img" alt="">
-                                <h3>Sara Wilsson</h3>
-                                <h4>Designer</h4>
+                                <img src="{{ asset('img/endi.jpg') }}" class="testimonial-img" alt=""
+                                    style="width:120px; height:120px; object-fit:cover">
+                                <h3>Endi Rahman Muhammad</h3>
+                                <h4>Ketua PAC IPNU Pangandaran</h4>
                                 <div class="stars">
                                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                         class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -499,9 +550,7 @@
                                 </div>
                                 <p>
                                     <i class="bi bi-quote quote-icon-left"></i>
-                                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
-                                    cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
-                                    legam anim culpa.
+                                    Ketika kamu tidak tahu tanyakan, ketika kamu sudah tau nyatakan
                                     <i class="bi bi-quote quote-icon-right"></i>
                                 </p>
                             </div>
@@ -509,10 +558,10 @@
 
                         <div class="swiper-slide">
                             <div class="testimonial-item">
-                                <img src="{{ asset('clients/assets/img/testimonials/testimonials-3.jpg') }}"
-                                    class="testimonial-img" alt="">
-                                <h3>Jena Karlis</h3>
-                                <h4>Store Owner</h4>
+                                <img src="{{ asset('img/daus.png') }}" class="testimonial-img" alt=""
+                                    style="width:120px; height:120px; object-fit:cover">
+                                <h3>Firdaus Nur Hariyanto S.T</h3>
+                                <h4>Wakil Presma 2020-2021</h4>
                                 <div class="stars">
                                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                         class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -520,50 +569,7 @@
                                 </div>
                                 <p>
                                     <i class="bi bi-quote quote-icon-left"></i>
-                                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam
-                                    duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                                    <i class="bi bi-quote quote-icon-right"></i>
-                                </p>
-                            </div>
-                        </div><!-- End testimonial item -->
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <img src="{{ asset('clients/assets/img/testimonials/testimonials-4.jpg') }}"
-                                    class="testimonial-img" alt="">
-                                <h3>Matt Brandon</h3>
-                                <h4>Freelancer</h4>
-                                <div class="stars">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i>
-                                </div>
-                                <p>
-                                    <i class="bi bi-quote quote-icon-left"></i>
-                                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat
-                                    minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore
-                                    labore illum veniam.
-                                    <i class="bi bi-quote quote-icon-right"></i>
-                                </p>
-                            </div>
-                        </div><!-- End testimonial item -->
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <img src="{{ asset('clients/assets/img/testimonials/testimonials-5.jpg') }}"
-                                    class="testimonial-img" alt="">
-                                <h3>John Larson</h3>
-                                <h4>Entrepreneur</h4>
-                                <div class="stars">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i>
-                                </div>
-                                <p>
-                                    <i class="bi bi-quote quote-icon-left"></i>
-                                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster
-                                    veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam
-                                    culpa fore nisi cillum quid.
+                                    Memberdayakan perubahan dengan memerdayakan teknologi
                                     <i class="bi bi-quote quote-icon-right"></i>
                                 </p>
                             </div>

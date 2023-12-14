@@ -7,7 +7,7 @@
 @extends('masterClient')
 @section('content')
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio" data-aos="fade-up">
+    <section id="portfolio" class="portfolio m-5" data-aos="fade-up">
 
         <div class="container">
 
@@ -26,12 +26,6 @@
                 data-portfolio-sort="original-order">
 
                 <ul class="portfolio-flters">
-                    {{-- <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">App</li>
-          <li data-filter=".filter-product">Product</li>
-          <li data-filter=".filter-branding">Branding</li>
-          <li data-filter=".filter-books">Books</li> --}}
-                </ul><!-- End Portfolio Filters -->
 
                 <div class="row g-0 portfolio-container">
 

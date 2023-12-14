@@ -22,7 +22,7 @@
 
                 <div class="col-lg-5">
                     <div class="about-img">
-                        <img src="{{ asset('clients/assets/img/about.jpg') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('img/values-2.png') }}" class="img-fluid" alt="">
                     </div>
                 </div>
 

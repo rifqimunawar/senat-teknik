@@ -20,7 +20,7 @@
                 <div class="row">
                     <div class="col p-4">
                         <img src="{{ asset('img/'. $beasiswa->img) }}" 
-                        style="width: 30rem; height:auto; border-radius:20px" 
+                        style="width: 20rem; height:auto; border-radius:20px" 
                         alt="beasiswa">
                     </div>
                     <div class="col">
