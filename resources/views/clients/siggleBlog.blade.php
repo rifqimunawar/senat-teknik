@@ -102,6 +102,8 @@
                             <h4>Leave a Reply</h4>
                             <p>Your email address will not be published. Required fields are marked * </p>
                             <form action="{{ route('comments.store') }}" method="POST">
+                              @csrf
+                              <input type="hidden" name="post_id" value="{{ $post->id }}">
                                 <div class="row">
                                     <div class="col form-group">
                                         <input name="name" type="text" class="form-control" placeholder="Your Name*">

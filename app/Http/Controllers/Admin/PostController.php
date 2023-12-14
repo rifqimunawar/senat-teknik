@@ -134,6 +134,8 @@ class PostController extends Controller
    */
   public function destroy($id, Post $post)
   {
+
+    // dd('berhasil memilih id'. $id);
     $post = Post::findOrFail($id);
     $post->delete();
     return redirect()->route('index.post');
