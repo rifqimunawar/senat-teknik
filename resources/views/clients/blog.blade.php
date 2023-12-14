@@ -1,5 +1,5 @@
-@section('title'){{ 'Home' }}@endsection
-@section('favicon'){{ asset('img/dema.png') }}@endsection
+@section('title'){{ 'Article' }}@endsection
+@section('favicon'){{ asset('img/logo-senat.png') }}@endsection
 @extends('masterClient')
 @section('content')
     <section class="breadcrumbs">

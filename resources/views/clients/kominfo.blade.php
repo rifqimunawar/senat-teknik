@@ -2,7 +2,7 @@
     {{ 'Kominfo' }}
 @endsection
 @section('favicon')
-    {{ asset('img/dema.png') }}
+    {{ asset('img/logo-senat.png') }}
 @endsection
 @extends('masterClient')
 @section('content')

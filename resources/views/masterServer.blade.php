@@ -9,10 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Dema - Uninus</title>
+    <title>Senat - Teknik</title>
     <!-- Favicons -->
-    <link href="{{ asset('img/dema.png') }}" rel="icon">
-    <link href="{{ asset('img/dema.png') }}" rel="apple-touch-icon">
+    <link href="{{ asset('img/logo-senat.png') }}" rel="icon">
+    <link href="{{ asset('img/logo-senat.png') }}" rel="apple-touch-icon">
 
     <!-- Custom fonts for this template-->
     <link href="{{ asset('server/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
