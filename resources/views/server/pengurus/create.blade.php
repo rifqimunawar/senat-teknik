@@ -19,23 +19,23 @@
                     <div class="card-body">
                         <form action="{{ route('store.pengurus') }}" method="post" enctype="multipart/form-data">
                             @csrf
-                            <div class="input-group input-group-outline my-3">
+                            <div class="input input-outline my-3">
                                 <label class="form-label">Nama Lengkap</label>
                                 <input type="text" class="form-control" name="name">
                             </div>
 
-                            <div class="input-group input-group-outline my-3">
+                            <div class="input input-outline my-3">
                                 <label class="form-label">Jabatan</label>
                                 <input type="text" class="form-control" name="jabatan">
                             </div>
 
-                            <div class="input-group input-group-outline my-3">
+                            <div class="input input-outline my-3">
                                 <label class="form-label">Username Instagram contoh : a_cah899</label>
                                 <input type="text" class="form-control" name="username_ig">
                             </div>
 
                             <label class="form-label my-3">Gambar Format : JPG, PNG, JPEG</label>
-                            <div class="input-group input-group-outline ">
+                            <div class="input input-outline ">
                                 <input type="file" class="form-control" name="img">
                             </div>
                             <div class="text-center">
