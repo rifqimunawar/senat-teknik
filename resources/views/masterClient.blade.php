@@ -43,11 +43,9 @@
     @stack('styles')
 
     <!-- =======================================================
-  * Template Name: HeroBiz
-  * Updated: Sep 18 2023 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
+  * Website Name: Senat Mahasiswa Fakultas Teknik
+  * Updated: Des 18 2023 with Bootstrap v5.3.2
+  * Author: Rifqi Munawar Ridwan
   ======================================================== -->
 </head>
 

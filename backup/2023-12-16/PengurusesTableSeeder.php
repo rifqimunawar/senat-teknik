@@ -22,12 +22,12 @@ class PengurusesTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'name' => 'Rika Damayanti',
-                'jabatan' => 'Div. Kominfo',
-                'username_ig' => 'rifqi_munawar',
-                'img' => 'pengurus_Rika Damayanti_1702541691.jpg',
+                'name' => 'cahyadi',
+                'jabatan' => 'presma',
+                'username_ig' => 'cahya__',
+                'img' => 'pengurus_cahyadi_1700642756.jpeg',
                 'created_at' => NULL,
-                'updated_at' => '2023-12-14 08:14:52',
+                'updated_at' => '2023-11-22 08:45:57',
             ),
         ));
         

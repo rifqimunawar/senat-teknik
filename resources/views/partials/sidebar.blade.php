@@ -75,6 +75,12 @@
                     <i class="fa-solid fa-people-group"></i>
                     <span>Data Admin</span></a>
             </li>
+            <!-- Nav Item - Charts -->
+            <li class="nav-item">
+                <a class="nav-link" href="/admin/mabim">
+                    <i class="fa-solid fa-people-group"></i>
+                    <span>Data Mabim</span></a>
+            </li>
 
 
 

@@ -18,6 +18,7 @@ use App\Http\Controllers\Client\AspirasiController as ClientAspirasiController;
 use App\Http\Controllers\Client\Beasiswa;
 use App\Http\Controllers\Client\HomeController as ClientHomeController;
 use App\Http\Controllers\Client\GaleriController as ClientGaleriController;
+use App\Http\Controllers\MabimController;
 
 /*
 |--------------------------------------------------------------------------
@@ -47,6 +48,10 @@ Route::get('/blog',[PostController::class, 'index'])->name('client.blog');
 Route::get('/article-dema-uninus/{slug}',[PostController::class, 'show'])->name('client.blogShow');
 Route::post('/comments', [CommentController::class, 'store'])->name('comments.store');
 Route::get('/kominfo', [CommentController::class, 'kominfo']);
+
+Route::get('/mabim/create', [MabimController::class, 'create'])->name('create.mabim');
+Route::post('/mabim/store', [MabimController::class, 'store'])->name('store.mabim');
+Route::post('/mabim/show/{id}', [MabimController::class, 'show'])->name('show.mabim');
 
 /*
 |--------------------------------------------------------------------------
@@ -139,4 +144,11 @@ Route::middleware(['auth'])->group(function () {
   Route::put('/admin/post/update/{id}', [AdminPostController::class, 'update'])->name('update.post');
   Route::delete('/admin/post/destroy/{id}', [AdminPostController::class, 'destroy'])->name('post.destroy');
 
+    // CRUD DATA MABIM
+    Route::get('/admin/mabim', [MabimController::class, 'index'])->name('index.mabim');
+
+    Route::get('/admin/mabim/show/{id}', [MabimController::class, 'show'])->name('show.mabim');
+    Route::get('/admin/mabim/edit/{id}', [MabimController::class, 'edit'])->name('edit.mabim');
+    Route::put('/admin/mabim/update/{id}', [MabimController::class, 'update'])->name('update.mabim');
+    Route::delete('/admin/mabim/destroy/{id}', [MabimController::class, 'destroy'])->name('mabim.destroy');
 });

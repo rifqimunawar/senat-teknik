@@ -19,6 +19,7 @@
             data-aos="zoom-out">
             <img src="{{ asset('img/' . $dataHome[0]->img) }}" class="img-fluid animated">
             <h2><span>{{ $dataHome[0]->title }}</span></h2>
+            <a href="{{ route('create.mabim') }}" class="btn btn-primary btn-lg"> <i class="bi bi-triangle-half"></i>  Daftar Mabim</a>
             <p><span>{{ $dataHome[0]->description }}</span></p>
 
         </div>

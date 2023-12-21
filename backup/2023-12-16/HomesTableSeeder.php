@@ -22,11 +22,11 @@ class HomesTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'title' => 'Welcome to Senat Teknik',
-                'description' => 'Selamat datang di website resmi senat mahasiswa fakultas teknik universitas islam nusantara kota Bandung Jawa Barat',
-                'img' => 'home__1702541249.png',
+                'title' => 'Welcome to official website Dema Uninus',
+                'description' => 'Selamat datang di website resmi dewan eksekutif mahasiswa universitas islam nusantara kota Bandung Jawa Barat',
+                'img' => 'home__1700650033.png',
                 'created_at' => '2023-10-18 07:12:58',
-                'updated_at' => '2023-12-14 08:07:29',
+                'updated_at' => '2023-11-22 10:47:14',
             ),
         ));
         
