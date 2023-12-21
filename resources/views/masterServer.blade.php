@@ -14,6 +14,9 @@
     <link href="{{ asset('img/logo-senat.png') }}" rel="icon">
     <link href="{{ asset('img/logo-senat.png') }}" rel="apple-touch-icon">
 
+    <!-- Icon Boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
     <!-- Custom fonts for this template-->
     <link href="{{ asset('server/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">

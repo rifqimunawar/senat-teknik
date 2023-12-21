@@ -19,6 +19,7 @@
                               <div class="card-body">
                                 <div class="table-responsive p-0">
                                   <a href="{{ route('create.mabim') }}" class="btn btn-success m-4" >Tambah</a>
+                                  <a href="{{ route('cetak_pdf') }}" class=" btn btn-warning"><i class="bi bi-printer"></i> Print</a>
                                   <table class="table align-items-center mb-0">
                                     <thead>
                                       <tr>

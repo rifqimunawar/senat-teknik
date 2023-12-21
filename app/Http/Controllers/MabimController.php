@@ -1,8 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use App\Models\Mabim;
+use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Http\Request;
 use RealRashid\SweetAlert\Facades\Alert;
 
@@ -17,6 +17,19 @@ class MabimController extends Controller
 
         return view ('server.mabim.index', compact('mabim'));
     }
+
+    public function cetak_pdf(){
+      $peserta = Mabim::all();
+      $tanggal = date('Y-m-d H:i:s');
+
+
+      // return view('server.mabim.cetak', compact('peserta', 'tanggal'));
+      
+      
+      $pdf = PDF::loadView('server.mabim.cetak', ['peserta' => $peserta, 'tanggal'=> $tanggal]);
+      return $pdf->download('data-peserta-mabim-tanggal'. $tanggal .'.pdf');
+  }
+  
 
     /**
      * Show the form for creating a new resource.

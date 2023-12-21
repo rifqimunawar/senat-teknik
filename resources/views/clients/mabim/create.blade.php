@@ -83,9 +83,9 @@
                         </label>
                     </div>
                     <div class="col-md-12 d-flex align-items-center text-center">
-                      <button type="submit" class="btn-aspirasi mx-auto"><span>Kirim</span></button>
-                  </div>
-                  
+                        <button type="submit" class="btn-aspirasi mx-auto"><span>Kirim</span></button>
+                    </div>
+
             </div>
 
 
@@ -103,14 +103,14 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="{{ asset('img/ukuran_kaos_lokal.png') }}" alt="" class="d-flex align-item-center" 
-                    class="img-fluid">
-                  </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <img src="{{ asset('img/ukuran_kaos_lokal.png') }}" alt=""
+                        class="d-flex align-item-center img-fluid">
                 </div>
             </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
         </div>
+    </div>
     </div>
 @endsection

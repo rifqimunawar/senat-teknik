@@ -70,7 +70,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => env('APP_TIMEZONE', 'UTC'),
 
     /*
     |--------------------------------------------------------------------------
@@ -172,6 +172,7 @@ return [
         Orangehill\Iseed\IseedServiceProvider::class,
         // JeroenNoten\LaravelCkEditor\ServiceProvider::class,
         RealRashid\SweetAlert\SweetAlertServiceProvider::class,
+        Barryvdh\DomPDF\ServiceProvider::class,
 
     ])->toArray(),
 
@@ -190,6 +191,7 @@ return [
         // 'Example' => App\Facades\Example::class,
         'Image' => 'Intervention\Image\Facades\Image',
         'Alert' => RealRashid\SweetAlert\Facades\Alert::class,
+        
     ])->toArray(),
 
 ];

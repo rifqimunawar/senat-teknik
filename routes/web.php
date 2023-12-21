@@ -151,4 +151,5 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/admin/mabim/edit/{id}', [MabimController::class, 'edit'])->name('edit.mabim');
     Route::put('/admin/mabim/update/{id}', [MabimController::class, 'update'])->name('update.mabim');
     Route::delete('/admin/mabim/destroy/{id}', [MabimController::class, 'destroy'])->name('mabim.destroy');
+    Route::get('/admin/mabim/cetak_pdf', [MabimController::class, 'cetak_pdf'])->name('cetak_pdf');
 });
