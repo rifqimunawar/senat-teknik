@@ -51,7 +51,7 @@ Route::get('/kominfo', [CommentController::class, 'kominfo']);
 
 Route::get('/mabim/create', [MabimController::class, 'create'])->name('create.mabim');
 Route::post('/mabim/store', [MabimController::class, 'store'])->name('store.mabim');
-Route::post('/mabim/show/{id}', [MabimController::class, 'show'])->name('show.mabim');
+Route::get('/mabim/show/{id}', [MabimController::class, 'show'])->name('show.mabim');
 
 /*
 |--------------------------------------------------------------------------
@@ -147,7 +147,6 @@ Route::middleware(['auth'])->group(function () {
     // CRUD DATA MABIM
     Route::get('/admin/mabim', [MabimController::class, 'index'])->name('index.mabim');
 
-    Route::get('/admin/mabim/show/{id}', [MabimController::class, 'show'])->name('show.mabim');
     Route::get('/admin/mabim/edit/{id}', [MabimController::class, 'edit'])->name('edit.mabim');
     Route::put('/admin/mabim/update/{id}', [MabimController::class, 'update'])->name('update.mabim');
     Route::delete('/admin/mabim/destroy/{id}', [MabimController::class, 'destroy'])->name('mabim.destroy');

@@ -21,14 +21,12 @@ class MabimController extends Controller
     public function cetak_pdf(){
       $peserta = Mabim::all();
       $tanggal = date('Y-m-d H:i:s');
-
-
-      // return view('server.mabim.cetak', compact('peserta', 'tanggal'));
-      
-      
-      $pdf = PDF::loadView('server.mabim.cetak', ['peserta' => $peserta, 'tanggal'=> $tanggal]);
+  
+      $pdf = PDF::loadView('server.mabim.cetak', ['peserta' => $peserta, 'tanggal' => $tanggal])
+          ->setPaper('a4', 'landscape'); // Mengatur orientasi menjadi lanscape
       return $pdf->download('data-peserta-mabim-tanggal'. $tanggal .'.pdf');
   }
+  
   
 
     /**
