@@ -1,5 +1,5 @@
 @section('title')
-    {{ 'About' }}
+    {{ 'Daftar Mabim' }}
 @endsection
 @section('favicon')
     {{ asset('img/logo-senat.png') }}
