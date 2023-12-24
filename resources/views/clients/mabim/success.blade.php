@@ -14,12 +14,17 @@
 
             <div class="section-header">
                 <h2>Terima Kasih Sudah Melakukan Pemdaftaran</h2>
-                <h3>{{ $peserta->name }}, selanjutnya lakukan pembayaran ke 
-                  nomor rekening dibawah sebelum tanggal ......</h3>
+                <h3>{{ $peserta->name }}, <br> selanjutnya lakukan pembayaran ke
+                  Bendahara atau hubungi nomor WhatsApp dibawah
+                  {{ $peserta->created_at }}
+                </h3>
             </div>
-            <div>
-              <p>disini isi nomor rekening bendahara........</p>
+            <div class="text-center" style="max-width: 100%;">
+              <a href="https://wa.me/+6285161145097?text=Assalamu'alaikum%20sahabat,%0A%0ASaya,%20{{ rawurlencode($peserta->name) }},%20telah%20melakukan%20pendaftaran%20untuk%20kegiatan%20mabim%20pada%20{{ rawurlencode($peserta->created_at) }}.%0A%0ABerikut%20adalah%20rincian%20pendaftaran%20saya:%0A%0ANama:%20{{ rawurlencode($peserta->name) }}%0AAngkatan:{{ rawurlencode($peserta->angkatan) }}%0AProdi:{{ rawurlencode($peserta->prodi) }}%0AKelas:%20{{ rawurlencode($peserta->class) }}%0A%0ASaya%20ingin%20melakukan%20pembayaran.%20%0A%0AMohon%20konfirmasi%20kembali%20untuk%20proses%20pembayaran%20selanjutnya.%0A%0ATerima%20Kasih%0ASampai%20Ketemu%20di%20Mabim" target="_blank">
+                <img src="{{ asset('img/WhatsAppButtonGreenLarge.svg') }}" alt="" style="max-width: 100%; height: auto;" class="img-fluid">
+              </a>
             </div>
+            
 
         </div>
     </section><!-- End About Section -->
